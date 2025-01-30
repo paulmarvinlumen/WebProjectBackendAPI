@@ -1,0 +1,98 @@
+# Visual Studio specific files
+.vs/
+.vscode/
+*.code-workspace
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# Build output
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# C# files
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.nupkg
+*.snupkg
+
+# NuGet packages
+*.nuget/
+packages/
+project.lock.json
+project.assets.json
+paket-files/
+
+# Node.js (if using frontend in the project)
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Environment & logs
+.env
+*.log
+logs/
+log/
+*.tlog
+*.cache
+*.pid
+*.pnp.js
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# ASP.NET files
+appsettings.*.json
+secrets.json
+
+# Python (if using Python in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Coverage & reports
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+coverage.xml
+
+# Deployment
+.publish/
+*.pubxml
+*.publishsettings
+
+# Git ignore itself
+.gitignore
